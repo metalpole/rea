@@ -4,9 +4,9 @@ git clone https://github.com/metalpole/rea.git
 ```
 and `cd` into the cloned directory.
 
-To make setup easier a Docker container will be used, so having Docker installed will be necessary. Use the following command to pull the necessary image (which I recently used) courtesy of DeepLearning.AI which already contains Jupyter lab, FastAPI t
+To make setup easier a Docker container will be used, so having Docker installed will be necessary. Use the following command to pull the necessary image (which I recently used) courtesy of DeepLearning.AI which already contains Jupyter lab, FastAPI and Tensorflow.
 
-Using the following command will download or pull the image necessary to run this ungraded lab locally:
+Using the following command will download the image to run this repo locally:
 ```bash
 docker pull deeplearningai/mlepc1w1-ugl:jupyternb
 ```
