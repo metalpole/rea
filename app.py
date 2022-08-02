@@ -1,10 +1,9 @@
-import io
 import os
 import uvicorn
 import numpy as np
 from typing import List
 from tensorflow.keras.models import load_model
-from fastapi import FastAPI, UploadFile, File, HTTPException
+from fastapi import FastAPI
 
 host = "0.0.0.0" if os.getenv("DOCKER-SETUP") else "127.0.0.1"
 maxlen = 20
