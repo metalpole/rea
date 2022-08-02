@@ -15,3 +15,7 @@ To run a container using the image you just pulled, double check that you are cu
 ```bash
 docker run -it --rm -p 8888:8888 -p 8000:8000 --mount type=bind,source="$(pwd)",target=/home/jovyan/work deeplearningai/mlepc1w1-ugl:jupyternb
 ```
+
+Use the given token/hyperlink to open up Jupyter in your browser. Enter the `work` directory. Open the `ipynb.ipynb` notebook. Also, open a new terminal as shown.
+
+![Alt text](terminal.png?raw=true "Title")
